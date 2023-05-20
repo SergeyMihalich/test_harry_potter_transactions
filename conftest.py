@@ -19,13 +19,3 @@ def browser(request):
 def browser_param(request):
     return request.param
 
-
-# @pytest.fixture(scope='session')
-# def browser():
-#     # Инициализация драйвера Chrome
-#     driver = webdriver.Chrome()
-#     # Передача драйвера в тесты
-#     yield driver
-#
-#     # Завершение работы драйвера после выполнения всех тестов
-#     driver.quit()
